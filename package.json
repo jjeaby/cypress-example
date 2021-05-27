@@ -1,0 +1,23 @@
+{
+    "name": "cypress-example",
+    "version": "1.0.0",
+    "description": "cypress end to end example project",
+    "main": "index.js",
+    "scripts": {
+        "e2e": "cypress run",
+        "e2e:open-dev": "cypress open --env configFile=dev",
+        "e2e:run-dev": "cypress run --env configFile=dev"
+    },
+    "keywords": [
+        "cypress",
+        "end",
+        "to",
+        "end"
+    ],
+    "author": "jin",
+    "license": "ISC",
+    "dependencies": {
+        "fs-extra": "^10.0.0",
+        "path": "^0.12.7"
+    }
+}
