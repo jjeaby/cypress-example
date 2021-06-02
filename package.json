@@ -17,6 +17,8 @@
     "author": "jin",
     "license": "ISC",
     "dependencies": {
+        "cypress": "^7.4.0",
+        "cypress-xpath": "^1.6.2",
         "fs-extra": "^10.0.0",
         "path": "^0.12.7"
     }
